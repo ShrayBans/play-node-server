@@ -99,9 +99,6 @@ module.exports = server.registerAsync([
         console.error(pluginRegisterError);
     }
 
-    // server.auth.strategy("videoamp", "videoamp");
-    // server.auth.default("videoamp");
-
     const rejectionEmitter = unhandledRejection();
     rejectionEmitter.on("unhandledRejection", (error) => {
         console.error(error.toString());

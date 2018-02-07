@@ -1,7 +1,7 @@
 {
-  "name": "reporting",
-  "description": "VideoAmp Reporting API",
-  "version": "0.0.10",
+  "name": "node-server",
+  "description": "Node Play Server",
+  "version": "1.0.0",
   "contributors": [],
   "private": true,
   "scripts": {
@@ -9,7 +9,6 @@
     "dev": "nodemon --inspect -e js -i node_modules -i test index.js",
     "lint": "eslint .",
     "test": "echo 'Not implemented yet'",
-    "doc": "apidoc -i reporting/ -f \"^controllers/.*\\.js$\""
   },
   "dependencies": {
     "@videoamp/hapi-route-autoloader": "^1.0.0",
